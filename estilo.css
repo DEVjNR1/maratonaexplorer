@@ -1,8 +1,8 @@
 
     body{
         background: #667db6;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 
     }
@@ -18,7 +18,31 @@ background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3
         margin: 60px auto;
         box-shadow: 2px 2px 5px 4px #fdfdfd;
         border-radius: 10px;
+        background-image: url(./fundo.png);
+        opacity: 0,3;
         
+    }
+    .info{
+        margin-right: 350px;
+        padding-top: 10px;
+        opacity: 1;
+    }
+    .info:hover{
+        background: #93a2c5;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.493);
+        cursor: pointer;
+        opacity: 0.6;
+
+    }
+    .menu{
+        margin-left: 350px;
+        opacity: 1;
+    }
+    .menu:hover{
+        background: #93a2c5;
+        box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.493);
+        cursor: pointer;
+        opacity: 0.6;
     }
     img{
         width: 100%;
@@ -40,20 +64,26 @@ background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3
         font-size: 32px;
         margin-top: 24px;
         margin-bottom: 8px;
-        background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(68, 68, 68));
+        background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(247, 247, 247));
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-family: 'Alfa Slab One', cursive;
 
     }
     .username{
-        font-family: 'roboto Mono', monospace;
+        font-family: 'Pacifico', cursive;
         font-weight: 400;
         color:rgb(10, 10, 10);
         opacity: 0.8;
-        font-size: 18px;
+        font-size: 20px;
           
     
+    }
+    .location{
+        color: white;
+        font-family: 'Alfa Slab One', cursive;
+        margin-top: 10px;
+        text-align: center;
     }
     #navegation ul{
         list-style: none;
