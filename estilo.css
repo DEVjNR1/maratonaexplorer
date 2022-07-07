@@ -119,6 +119,10 @@
         opacity: 0.6;
     
     }
+    ul li p{
+        text-align: start;
+        width: 100px;
+    }
 
     a{
         text-decoration: none;
