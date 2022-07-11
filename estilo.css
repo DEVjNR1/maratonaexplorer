@@ -18,7 +18,9 @@
         margin: 60px auto;
         box-shadow: 2px 2px 5px 4px #fdfdfd;
         border-radius: 10px;
-        background-image: url(./fundo.png);
+        background: #0575E6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         opacity: 0,3;
         
     }
@@ -37,6 +39,7 @@
     .menu{
         margin-left: 350px;
         opacity: 1;
+
     }
     .menu:hover{
         background: #93a2c5;
@@ -54,24 +57,19 @@
         height: 150px;
         padding: 3.7px;
         border: white solid 2px;
-        background: #C33764;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     
     }
     #navegation h1{
         font-size: 32px;
         margin-top: 24px;
         margin-bottom: 8px;
-        background: -webkit-linear-gradient(rgb(255, 255, 255), rgb(247, 247, 247));
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        font-family: 'Alfa Slab One', cursive;
-
+        font-family: 'Secular One', sans-serif; 
+        color: white;
+        text-shadow:4px 4px 8px #2b2b2b ;
+    
     }
     .username{
-        font-family: 'Pacifico', cursive;
+        font-family: 'Secular One', sans-serif; 
         font-weight: 400;
         color:rgb(10, 10, 10);
         opacity: 0.8;
@@ -81,9 +79,25 @@
     }
     .location{
         color: white;
-        font-family: 'Alfa Slab One', cursive;
+        font-family: 'Secular One', sans-serif; 
         margin-top: 10px;
         text-align: center;
+        text-shadow:4px 4px 8px #2b2b2b ;
+    }
+    hr{
+        margin-top: 10px;
+        margin-left: 50px;
+        opacity: 0.4;
+        width: 300px;
+        
+       
+    }
+    .cargo{
+        color: white;
+        font-family: 'Secular One', sans-serif;
+        margin-bottom: -30px;
+        text-shadow:4px 4px 8px #2b2b2b ;
+        
     }
     #navegation ul{
         list-style: none;
