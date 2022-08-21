@@ -1,10 +1,8 @@
 
     body{
-        background: #667db6;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
+        background-image: url(./images/imgbg.jpg);
+        background-repeat: no-repeat;
+        background-size:auto;
     }
     *{
         margin:0px;
@@ -16,11 +14,13 @@
         text-align: center;
         width: 400px;
         margin: 60px auto;
-        box-shadow: 2px 2px 5px 4px #fdfdfd;
+        box-shadow: 2px 2px 8px 1px #fdfdfd;
         border-radius: 10px;
-        background: #0575E6;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        backdrop-filter: blur(16px) saturate(180%);
+        -webkit-backdrop-filter: blur(16px) saturate(180%);
+        background-color: rgba(17, 25, 40, 0.75);
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.125);
         opacity: 0,3;
         
     }
@@ -85,12 +85,10 @@
         margin-bottom: 16px;
         border-radius: 10px;
         font-family: 'Alfa Slab One', cursive;
-        background: #C9D6FF;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #ffffff;  /* fallback for old browsers */
         transition: background 400ms;
         opacity: 1;
-        border: 2px solid black;
+        
           
     
     }
@@ -101,6 +99,7 @@
         box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.493);
         cursor: pointer;
         opacity: 0.6;
+        font-size: 16px;
     
     }
     ul li p{
@@ -126,5 +125,5 @@
       }
       
       footer a{
-        color:#2a044a;
+        color:#ffffff;
       }
